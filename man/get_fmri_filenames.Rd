@@ -19,4 +19,3 @@ Return the filenames for the fMRI images
 \examples{
 get_fmri_filenames()
 }
-
