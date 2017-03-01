@@ -16,6 +16,3 @@ Indicator if the data is downloaded.
 \description{
 Download the files for the fMRI images
 }
-\examples{
-download_fmri_data()
-}
