@@ -3,3 +3,4 @@
 ^\.Rproj\.user$
 inst/visit_*/*
 ^appveyor\.yml$
+^cran-comments\.md$
