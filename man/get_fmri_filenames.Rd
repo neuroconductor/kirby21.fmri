@@ -11,7 +11,7 @@ get_fmri_filenames(...)
 \code{modalities = "fMRI"} so it cannot be specified}
 }
 \value{
-Vector fo filenames
+Vector of filenames
 }
 \description{
 Return the filenames for the fMRI images
