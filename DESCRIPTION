@@ -1,17 +1,25 @@
 Package: kirby21.fmri
 Type: Package
-Title: Example Functional Imaging Data from the Multi-Modal
-       MRI 'Reproducibility' Resource
+Title: Example Functional Imaging Data from the Multi-Modal MRI
+        'Reproducibility' Resource
 Version: 1.7.0
 Date: 2018-08-13
 Author: John Muschelli <muschellij2@gmail.com>
 Maintainer: John Muschelli <muschellij2@gmail.com>
-Description: Functional magnetic resonance imaging ('fMRI')
-       data from the 'Kirby21' 'reproducibility' study
-       <doi:10.1016/j.neuroimage.2010.11.047>.
+Description: Functional magnetic resonance imaging ('fMRI') data from
+        the 'Kirby21' 'reproducibility' study
+        <doi:10.1016/j.neuroimage.2010.11.047>.
 License: GPL-2
 Imports: kirby21.base (>= 1.7.0)
-Suggests: kirby21.t1 (>= 1.7.0)
+Suggests: 
+    kirby21.t1 (>= 1.7.0),
+    covr,
+    testthat
 RoxygenNote: 6.1.0
 URL: https://www.nitrc.org/projects/multimodal/
 Encoding: UTF-8
+Repository: Neuroconductor
+Remotes: 
+    neuroconductor/kirby21.base@05f22dce05785d199035f6a933598c1a9fd9119d,
+    neuroconductor/kirby21.t1@d9d2c5888aae676ae04f31146111014c589ea26f
+biocViews: 
